@@ -1,0 +1,29 @@
+.TwitterModuleRow {
+  display: flex;
+  padding: 20px 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(56, 68, 77);
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+.TwitterModuleRow__userAvatar {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.TwitterModuleRow__name {
+  font-weight: 700;
+
+}
+
+.TwitterModuleRow__username {
+  font-weight: 400;
+  color: rgb(136, 153, 166);
+}
+
+.TwitterModuleRow__commentSection {
+  text-align: left;
+  padding: 0 10px;
+}
